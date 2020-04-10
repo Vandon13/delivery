@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+.container {
+  max-width: 1200px;
+  width: 96%;
+  margin: 0 auto;
+}
+
+.button {
+  padding: 8px 16px;
+  border-radius: 2px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  padding-top: 44px;
+}
+
+.navbar__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__input {
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  border-radius: 2px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  background-image: url(../img/header/header-icons/home.svg);
+  background-repeat: no-repeat;
+  background-position: left 11px center;
+  padding: 8px 500px 8px 35px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar__button {
+  color: #ffffff;
+  background: #1890FF url(../img/header/header-icons/user.svg) no-repeat left 8px center;
+  padding-left: 29px;
+  margin-right: 12px;
+  border: 1px solid #1890FF;
+}
+
+.navbar__button-o {
+  border: 1px solid #D9D9D9;
+  background-color: #fff;
+  color: #595959;
+  background: #ffffff url(../img/header/header-icons/shopping-cart.svg) no-repeat left 8px center;
+  padding-left: 29px;
+}
+
+.navbar__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
