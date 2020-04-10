@@ -91,6 +91,14 @@ body {
   padding-top: 44px;
 }
 
+.input {
+  background: #ffffff;
+  border: 1px solid #D9D9D9;
+  border-radius: 2px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 .header {
   margin-bottom: 40px;
 }
@@ -108,13 +116,8 @@ body {
 }
 
 .navbar__input {
-  background: #FFFFFF;
-  border: 1px solid #D9D9D9;
-  border-radius: 2px;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
   background-image: url(../img/header/header-icons/home.svg);
   background-repeat: no-repeat;
   background-position: left 11px center;
@@ -148,7 +151,7 @@ body {
 }
 
 .promo {
-  background: #FFF1B8 url(../img/header/header-img/promo-img.jpeg) no-repeat top -100px right -247px/924px;
+  background: #FFF1B8 url(../img/promo/promo-img/promo-img.jpeg) no-repeat top -100px right -247px/924px;
   border-radius: 10px;
   -webkit-box-shadow: 0px 7px 12px rgba(158, 158, 163, 0.1);
           box-shadow: 0px 7px 12px rgba(158, 158, 163, 0.1);
@@ -156,6 +159,7 @@ body {
   width: 96%;
   margin: 0 auto;
   padding: 68px 70px;
+  margin-bottom: 56px;
 }
 
 .promo__title {
@@ -172,5 +176,153 @@ body {
   font-size: 24px;
   line-height: 28px;
   color: #302C34;
+}
+
+.restaurants__heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 44px;
+}
+
+.restaurants__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.restaurants__input {
+  background: url(../img/restaurants/restaurants-icons/search.svg) no-repeat left 10px center;
+  padding: 8px 32px;
+  font-style: normal;
+  font-weight: normal;
+  width: 306px;
+}
+
+.restaurants__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 7px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.card__image {
+  width: 384px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card__text {
+  padding: 20px 23px 35px 23px;
+}
+
+.card__heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.card__tag {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #262626;
+  border-radius: 2px;
+  padding: 1px 8px;
+}
+
+.card__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card__rating {
+  margin-right: 26px;
+  color: #FFC107;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card__rating-star {
+  margin-right: 8px;
+}
+
+.card__price {
+  margin-right: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #8C8C8C;
+  vertical-align: middle;
+}
+
+.card__category {
+  color: #8C8C8C;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.card__price:after {
+  display: inline-block;
+  content: '';
+  width: 5px;
+  height: 5px;
+  vertical-align: middle;
+  border-radius: 50%;
+  margin-left: 10px;
+  background-color: #8C8C8C;
 }
 /*# sourceMappingURL=style.css.map */

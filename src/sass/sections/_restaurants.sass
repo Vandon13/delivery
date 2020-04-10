@@ -1,0 +1,90 @@
+.restaurants
+	&__heading
+		display: flex
+		justify-content: space-between
+		align-items: center
+		margin-bottom: 44px
+	&__title
+		font-family: Roboto
+		font-style: normal
+		font-weight: bold
+		font-size: 36px
+		line-height: 42px
+	&__input
+		background: url(../img/restaurants/restaurants-icons/search.svg) no-repeat left 10px center
+		padding: 8px 32px
+		font-style: normal
+		font-weight: normal
+		width: 306px
+	&__row
+		display: flex
+		flex-wrap: wrap
+		align-items: flex-start
+		justify-content: space-between
+.card
+	background: #FFFFFF
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05)
+	border-radius: 7px
+	overflow: hidden
+	margin-bottom: 30px
+	&__image
+		width: 384px
+		height: 250px
+		object-fit: cover
+	&__text
+		padding: 20px 23px 35px 23px
+	&__heading
+		display: flex
+		justify-content: space-between
+		align-items: center
+	&__title
+		margin: 0
+		font-style: normal
+		font-weight: bold
+		font-size: 24px
+		line-height: 32px
+	&__tag
+		font-style: normal
+		font-weight: normal
+		font-size: 12px
+		line-height: 20px
+		color: #ffffff
+		background-color: #262626
+		border-radius: 2px
+		padding: 1px 8px
+	&__info
+		display: flex
+		align-items: center
+	&__rating
+		margin-right: 26px
+		color: #FFC107
+		font-style: normal
+		font-weight: bold
+		font-size: 18px
+		line-height: 32px
+		display: flex
+		&-star
+			margin-right: 8px
+	&__price
+		margin-right: 10px
+		font-style: normal
+		font-weight: normal
+		font-size: 18px
+		line-height: 32px
+		color: #8C8C8C
+		vertical-align: middle
+	&__category
+		color: #8C8C8C
+		font-style: normal
+		font-weight: normal
+		font-size: 18px
+		line-height: 32px
+.card__price:after
+	display: inline-block
+	content: ''
+	width: 5px
+	height: 5px
+	vertical-align: middle
+	border-radius: 50%
+	margin-left: 10px
+	background-color: #8C8C8C
